@@ -1,0 +1,25 @@
+{
+  "name": "bitcoinapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "express-draft": "^1.0.4",
+    "nodemon": "^3.0.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}
